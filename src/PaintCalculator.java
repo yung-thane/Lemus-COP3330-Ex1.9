@@ -18,7 +18,7 @@ public class PaintCalculator {
         int width = widthInp.nextInt();
 
         int ceilingArea = length * width;
-        double gallonsNeeded = Math.ceil( ((double)ceilingArea)/350);
+        double gallonsNeeded =  Math.ceil(((double) ceilingArea) / 350);
         System.out.printf("You will need to purchase %.0f gallons of paint to cover %d square feet.", gallonsNeeded,ceilingArea);
 
 
